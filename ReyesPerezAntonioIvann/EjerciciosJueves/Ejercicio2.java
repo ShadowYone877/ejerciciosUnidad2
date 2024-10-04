@@ -1,6 +1,6 @@
-class Ejercicio2{
-    public static void main(String[] args) {
-        String nom = "Antonio Ivann";
-        System.out.println("Bienvenido "+nom);
+class Ejercicio2{ //Nombre de la clase//
+    public static void main(String[] args) { //Metodo principal//
+        String nom = "Antonio Ivann"; //Aqui declaramos una variable de tipo String la cual almacena un texto//
+        System.out.println("Bienvenido "+nom); //En esta linea imprimimos el mensaje deseado al concatenar nuestra variable con el texto de "Bienvenido//"
     }
 }
