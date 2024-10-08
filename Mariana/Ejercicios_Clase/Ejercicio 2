@@ -1,0 +1,8 @@
+class Ejercicio2{
+    public static void main (String[]args){
+    //aqui se declara la variable nombre
+    String nombre = "Mariana";
+    // aqui se imprime la variable 
+    System.out.print ("Biemvenido" * nombre)
+   }
+}

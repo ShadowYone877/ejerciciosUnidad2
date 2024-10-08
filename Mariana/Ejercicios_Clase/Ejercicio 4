@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class DosNumeros {
+    public static void main(String[] args) {
+        // Crear un objeto Scanner para leer la entrada del usuario
+        Scanner scanner = new Scanner(System.in);
+        
+        // Pedir al usuario que ingrese el primer número
+        System.out.print("Por favor, introduce el primer número: ");
+        int numero1 = scanner.nextInt(); // Leer el primer número
+        
+        // Pedir al usuario que ingrese el segundo número
+        System.out.print(" introduce el segundo número: ");
+        int numero2 = scanner.nextInt(); // Leer el segundo número
+        
+        // Imprimir los números ingresados
+        System.out.println("Los números que has ingresado son: " + numero1 + " y " + numero2);
+        
+        // Cerrar el Scanner
+        scanner.close();
+    }
+}
